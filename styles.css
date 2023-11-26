@@ -1,0 +1,287 @@
+body {
+    background: #272727;
+    color: #EDE8E5;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    color: #B7CE02;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.ava {
+    width: 200px;
+    border-radius: 16px;
+    margin-top: auto;
+}
+
+.skillstitle {
+    color: #EDE8E5;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.projectstitle {
+    color: #272727;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.contactstitle {
+    color: #586034;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.container {
+    max-width: 707px;
+    margin: 0 auto;
+}
+
+.skills {
+    border-radius: 16px;
+    background: #586034;
+    padding: 12px 24px 0px 24px;
+    margin-top: 24px;
+}
+
+.projects {
+    border-radius: 16px;
+    background: #EDE8E5;
+    padding: 12px 24px 0px 24px;
+    margin-top: 24px;
+}
+
+.contacts {
+    border-radius: 16px;
+    background: #B7CE02;
+    padding: 12px 24px 80px 24px;
+    margin-top: 24px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list li {
+    background: #808C49;
+    display: flex;
+    align-items: center;
+    height: 27px;
+}
+
+.list li:hover {
+    background: #B7CE02;
+    color: #272727;
+
+}
+
+.list li:nth-child(even) {
+    background: #586034;
+}
+
+.list li:nth-child(even):hover {
+    background: #B7CE02;
+    color: #272727;
+}
+
+.table {
+    color: #272727;
+    width: 100%;
+    text-align: left;
+}
+
+.table tr th {
+    background-color: #B7CE02;
+    color: #272727;
+    font-weight: 400;
+    height: 27px;
+}
+
+.table tr:hover td {
+    background: #DED9D5;
+}
+
+.table tr td {
+    height: 27px;
+}
+
+a {
+    color: #272727;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808C49;
+    text-decoration: underline;
+}
+
+.contacts li {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.list2 {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+.tel {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #DED9D5;
+    color: #DED9D5;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 50px;
+}
+
+.vk {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #DED9D5;
+    color: #272727;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 50px;
+}
+
+.tg {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #586034;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #DED9D5;
+    padding: 16px 50px;
+}
+
+.tel:hover {
+    background: #DED9D5;
+    color: #272727;
+}
+
+.vk:hover {
+    background: #586034;
+    color: #DED9D5;
+}
+
+.tg:hover {
+    background: #DED9D5;
+    color: #272727;
+}
+
+.about {
+    display: flex;
+    gap: 24px;
+}
+
+.fixed {
+    width: 100%;
+    position: relative;
+}
+
+.up {
+    width: 80px;
+    height: 80px;
+    background: #586034;
+    border-radius: 100px;
+    bottom: 8px;
+    right: 8px;
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 72px;
+        margin-bottom: 8px;
+    }
+
+    .skillstitle {
+        font-size: 48px;
+    }
+
+    .projectstitle {
+        font-size: 48px;
+    }
+
+    .contactstitle {
+        font-size: 48px;
+    }
+
+    .aboutme {
+        font-size: 14px;
+    }
+
+    .vk {
+        font-size: 16px;
+    }
+
+    .tg {
+        font-size: 16px;
+    }
+
+    .tel {
+        font-size: 16px;
+    }
+
+    .ava {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 915px) {
+    .fixed {
+        display: none;
+    }
+}
