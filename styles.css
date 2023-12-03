@@ -85,7 +85,7 @@ h1 {
 .contacts {
     border-radius: 16px;
     background: #B7CE02;
-    padding: 12px 24px 80px 24px;
+    padding: 12px 24px 88px;
     margin-top: 24px;
 }
 
@@ -150,6 +150,7 @@ a {
     color: #272727;
     text-decoration: none;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 a:hover {
@@ -158,20 +159,19 @@ a:hover {
 }
 
 .contacts li {
-    width: 33%;
     float: left;
     box-sizing: border-box;
+    width: 33%;
 }
 
 .list2 {
     list-style: none;
     padding: 0;
     width: 100%;
-
 }
 
-.tel {
-    display: inline-flex;
+a.tel {
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
@@ -182,11 +182,12 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 16px 50px;
+    padding: 16px 47px;
+    text-decoration: none;
 }
 
-.vk {
-    display: inline-flex;
+a.vk {
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
@@ -199,10 +200,11 @@ a:hover {
     font-weight: 400;
     line-height: normal;
     padding: 16px 50px;
+    text-decoration: none;
 }
 
-.tg {
-    display: inline-flex;
+a.tg {
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
@@ -214,7 +216,8 @@ a:hover {
     font-weight: 400;
     line-height: normal;
     color: #DED9D5;
-    padding: 16px 50px;
+    padding: 16px 53px;
+    text-decoration: none;
 }
 
 .tel:hover {
