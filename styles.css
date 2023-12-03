@@ -32,6 +32,8 @@ h1 {
     line-height: normal;
     text-transform: uppercase;
     margin: auto;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .projectstitle {
@@ -44,6 +46,8 @@ h1 {
     text-transform: uppercase;
     margin: auto;
     margin-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .contactstitle {
@@ -65,15 +69,17 @@ h1 {
 .skills {
     border-radius: 16px;
     background: #586034;
-    padding: 12px 24px 0px 24px;
+    padding: 12px 0px 0px;
     margin-top: 24px;
+    overflow: hidden;
 }
 
 .projects {
     border-radius: 16px;
     background: #EDE8E5;
-    padding: 12px 24px 0px 24px;
+    padding: 12px 0px 0px;
     margin-top: 24px;
+    overflow: hidden;
 }
 
 .contacts {
@@ -87,6 +93,7 @@ h1 {
     list-style: none;
     padding: 0;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .list li {
@@ -94,6 +101,8 @@ h1 {
     display: flex;
     align-items: center;
     height: 27px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .list li:hover {
@@ -115,6 +124,7 @@ h1 {
     color: #272727;
     width: 100%;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .table tr th {
@@ -122,6 +132,8 @@ h1 {
     color: #272727;
     font-weight: 400;
     height: 27px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .table tr:hover td {
@@ -130,11 +142,14 @@ h1 {
 
 .table tr td {
     height: 27px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 a {
     color: #272727;
     text-decoration: none;
+    display: inline-block;
 }
 
 a:hover {
